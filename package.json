@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "babel ./src/app.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ternprojects/node.git"
+  },
+  "author": "Y.Tern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ternprojects/node/issues"
+  },
+  "homepage": "https://github.com/ternprojects/node#readme",
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "uuid": "^8.1.0"
+  }
+}
